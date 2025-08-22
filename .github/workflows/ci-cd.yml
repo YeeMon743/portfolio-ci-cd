@@ -21,7 +21,7 @@ jobs:
 
       # Validate HTML using Node-based validator (fast, no Docker)
       - name: Validate HTML
-        uses: tj-actions/html-validator@v1
+        uses: htmlhint/gh-action@v1
         with:
           folder: .
           # Optional: fail workflow if HTML errors exist
