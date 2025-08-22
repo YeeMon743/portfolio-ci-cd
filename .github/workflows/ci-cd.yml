@@ -24,7 +24,7 @@ jobs:
           root: .
 
       - name: Lint CSS
-        uses: stylelint/stylelint-action@v1
+        uses: stylelint/github-action@v2
         with:
           files: "**/*.css"
 
